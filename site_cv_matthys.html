@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Matthys Brinkmans — CV & Lettre de motivation</title>
@@ -105,8 +106,14 @@
     font-size: 1.3rem;
     color: var(--navy);
   }
-  :root[data-theme="dark"] section.doc-card h2,
-  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) section.doc-card h2 { color: #9dc0f0; } }
+  :root[data-theme="dark"] section.doc-card h2 {
+    color: #9dc0f0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) section.doc-card h2 {
+      color: #9dc0f0;
+    }
+  }
   section.doc-card .desc {
     color: var(--text-muted);
     font-size: 0.92rem;
@@ -176,8 +183,8 @@
     <span>📞 +33 7 60 31 32 22</span>
     <span>✉️ m.brinkmans07@gmail.com</span>
     <span>📍 Roubaix (59100) — Mobilité Nord</span>
-    <a href="https://www.linkedin.com/in/matthys-brinkmans" target="_blank" rel="noopener">LinkedIn</a>
-    <a href="https://github.com/Mvtthys07" target="_blank" rel="noopener">GitHub</a>
+    <a href="https://www.linkedin.com/in/matthys-brinkmans" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin" aria-hidden="true"></i>LinkedIn</a>
+    <a href="https://github.com/Mvtthys07" target="_blank" rel="noopener"><i class="fa-brands fa-github" aria-hidden="true"></i>GitHub</a>
   </div>
 </header>
 
